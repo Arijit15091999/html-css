@@ -1,5 +1,5 @@
-h1{
-    color:white;
+*{
+    color: white;
 }
 
 body{
@@ -8,4 +8,20 @@ body{
     margin: 0;
     background-color:black;
     overflow: hidden;
+}
+
+#outer{
+    font-size: 50px;
+}
+
+#inner{
+    font-size: 25px;
+}
+
+#circle{
+    border-color:purple;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
 }

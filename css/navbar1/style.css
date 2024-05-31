@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin:0px;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+#logo{
+    color: rgb(220, 178, 26);
+    font-size: 25px;
+}
+button{
+    background-color: rgb(237, 148, 5);
+}
