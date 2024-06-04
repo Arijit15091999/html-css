@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #D6A99A;
+    border-top: 10px solid #e16036;
+    border-radius: 50%;
+    position: absolute;
+    top: 40vh;
+    left: 46vw;
+    transform: translate(-50px, -50px);
+    animation-name: loaderAnimate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loaderAnimate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
