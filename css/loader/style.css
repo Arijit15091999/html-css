@@ -9,7 +9,7 @@
     border-top: 10px solid #e16036;
     border-radius: 50%;
     position: absolute;
-    top: 40vh;
+    top: 42vh;
     left: 46vw;
     transform: translate(-50px, -50px);
     animation-name: loaderAnimate;
